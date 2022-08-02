@@ -4,4 +4,4 @@ mkdir build
 cd build
 cmake ..
 
-make DESTDIR="$1" install
+make DESTDIR="$1/usr/bin" install
