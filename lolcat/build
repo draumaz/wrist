@@ -1,5 +1,4 @@
 #!/bin/sh -e
 
-patch Makefile < destdir.patch
 make
-make install
+cp -vf lolcat censor /usr/bin
