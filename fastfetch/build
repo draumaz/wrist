@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+patch src/common/networking.c < networking.patch
+mkdir build
+cd build
+
+cmake ..
+make
+make install
