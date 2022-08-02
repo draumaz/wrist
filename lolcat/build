@@ -1,4 +1,3 @@
 #!/bin/sh -e
 
-make
-cp -vf lolcat censor /usr/bin
+make DESTDIR="/usr/bin" install
