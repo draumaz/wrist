@@ -2,3 +2,4 @@
 
 patch Makefile < destdir.patch
 make
+make install
