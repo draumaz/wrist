@@ -1,4 +1,5 @@
 #!/bin/sh -e
 
 mkdir -p "$1/usr/bin"
+
 make DESTDIR="$1/usr/bin" install
