@@ -2,6 +2,7 @@
 
 mkdir build
 cd build
-cmake ..
 
-make DESTDIR="$1" install
+cmake ..
+cmake --build . --target fastfetch --target flashfetch
+cmake --install . --prefix $1/usr/local
