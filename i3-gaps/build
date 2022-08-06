@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+mkdir build
+cd build
+
+meson ..
+ninja install

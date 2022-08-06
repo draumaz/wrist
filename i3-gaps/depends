@@ -1,0 +1,11 @@
+cairo
+libev
+pango
+pcre2
+xcb-util-image
+xcb-util-renderutil
+xcb-util-cursor
+xcb-util-keysyms
+xcb-util-wm
+xcb-util-xrm
+yajl
