@@ -13,3 +13,5 @@ MMMMMM"___ "_._   MMM"_."" _ """"""
    \________________________/
    (_)                    (_)
 ```
+
+- no dependency tracking for 100% distro portability
