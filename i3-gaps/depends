@@ -1,7 +1,7 @@
 cairo
 libev
 pango
-pcre2
+pcre
 xcb-util-image
 xcb-util-renderutil
 xcb-util-cursor
