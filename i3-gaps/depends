@@ -1,9 +1,9 @@
 cairo
 libev
 meson
-ninja
 pango
 pcre
+samurai
 xcb-util-image
 xcb-util-renderutil
 xcb-util-cursor
