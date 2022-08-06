@@ -1,5 +1,7 @@
 cairo
 libev
+meson
+ninja
 pango
 pcre
 xcb-util-image
