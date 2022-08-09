@@ -1,7 +1,5 @@
 #!/bin/sh -e
 
-patch src/common/networking.c < time.patch
-
 mkdir build
 cd build
 
