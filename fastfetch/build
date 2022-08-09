@@ -2,6 +2,6 @@
 
 mkdir build
 cd build
-
 cmake ..
+
 make DESTDIR="$1" install
