@@ -9,9 +9,16 @@ MMMMMM"___ "_._   MMM"_."" _ """"""
        MMMMM_"  "_    ./
         ''''      (    )
  ._______________.-'____"---._.
-  \        wrist repo        /
+  \    the wrist repo        /
    \________________________/
    (_)                    (_)
 ```
 
 - no dependency tracking for 100% distro portability
+
+# embrace the wrist
+```
+export KISS_PATH="$KISS_PATH:/path/to/wrist"
+# if not a Mac, export the following
+export KISS_PATH="$KISS_PATH:/path/to/wrist/banana"
+```
