@@ -1,7 +1,15 @@
 #!/bin/sh -e
 
-mkdir build
-cd build
-cmake ..
+case `uname -s` in
+  *Darwin*) _PFX_="/usr/local" ;;
+  *) _PFX_="/usr" ;;
+esac
+
+mkdir build && cd build
+cmake -DCMAKE_INSTALL_PREFIX="$_PFX_" ..
+
+cmake --build . \
+  --target fastfetch \
+  --target flashfetch
 
 make DESTDIR="$1" install
