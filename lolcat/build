@@ -6,4 +6,4 @@ case `uname -s` in
 esac
 
 mkdir -p "$1/$_PFX_"
-make DESTDIR="$1" install
+make DESTDIR="$1/$_PFX_" install
