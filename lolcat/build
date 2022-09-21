@@ -1,4 +1,9 @@
 #!/bin/sh -e
 
-mkdir -p "$1/usr/bin"
-make DESTDIR="$1/usr/bin" install
+case `uname -s` in
+  *Darwin*) _PFX_="/usr/local" ;;
+  *) _PFX_="/usr" ;;
+esac
+
+mkdir -p "$1/$_PFX_"
+make DESTDIR="$1" install
