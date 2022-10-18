@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 case `uname -s` in
-  *Darwin*) _PFX_="/usr/local" ;;
-  *) _PFX_="/usr" ;;
+  *Darwin*) _PFX_="/usr/local"; CORES=`sysctl -n hw.ncpu` ;;
+  *) _PFX_="/usr"; CORES=`nproc` ;;
 esac
 
 mkdir build && cd build
@@ -10,6 +10,7 @@ cmake -DCMAKE_INSTALL_PREFIX="$_PFX_" ..
 
 cmake --build . \
   --target fastfetch \
-  --target flashfetch
+  --target flashfetch \
+  --jobs "${CORES}"
 
 make DESTDIR="$1" install
