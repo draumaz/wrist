@@ -11,6 +11,6 @@ cmake -DCMAKE_INSTALL_PREFIX="$_PFX_" ..
 cmake --build . \
   --target fastfetch \
   --target flashfetch \
-  --jobs "${CORES}"
+  -j"${CORES}"
 
 make DESTDIR="$1" install
