@@ -9,12 +9,10 @@ MMMMMM"___ "_._   MMM"_."" _ """"""
        MMMMM_"  "_    ./
         ''''      (    )
  ._______________.-'____"---._.
-  \     the wrist repo       /
+  \                          /
    \________________________/
    (_)                    (_)
 ```
-
-- no dependency tracking for 100% distro portability
 
 # embrace the wrist
 ```
