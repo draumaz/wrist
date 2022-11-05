@@ -1,0 +1,5 @@
+gnutls
+nettle
+pcre2
+util-linux
+zlib
