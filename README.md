@@ -18,5 +18,5 @@ MMMMMM"___ "_._   MMM"_."" _ """"""
 
 # embrace the wrist
 ```
-export KISS_PATH="$KISS_PATH:/path/to/wrist/cory"
+export KISS_PATH="$KISS_PATH:/path/to/wrist/core"
 ```
