@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 case `uname -s` in
-  *Darwin*) _PFX_="/usr/local" ;;
-  *) _PFX_="/usr" ;;
+  *Darwin*) _PFX_="/usr/local/bin" ;;
+  *) _PFX_="/usr/bin" ;;
 esac
 
 mkdir -p "$1/$_PFX_"
