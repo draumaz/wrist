@@ -17,5 +17,7 @@ MMMMMM"___ "_._   MMM"_."" _ """"""
 
 # embrace the wrist
 ```
-export KISS_PATH="$KISS_PATH:/path/to/wrist/{fun,misc,sys}"
+export KISS_PATH="$KISS_PATH:/path/to/wrist/fun"
+export KISS_PATH="$KISS_PATH:/path/to/wrist/misc"
+export KISS_PATH="$KISS_PATH:/path/to/wrist/sys"
 ```
