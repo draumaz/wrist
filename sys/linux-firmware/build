@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+ls && exit
+
+mkdir -pv $1/usr/lib/firmware
+cp -rfv * $1/usr/lib/firmware
