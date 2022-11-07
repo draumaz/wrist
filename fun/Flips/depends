@@ -1,0 +1,9 @@
+cairo
+fontconfig
+freetype-harfbuzz
+gcc
+gdk-pixbuf
+glib
+gtk+3
+pango
+wayland
