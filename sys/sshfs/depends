@@ -1,4 +1,4 @@
-meson make
-openssh
 fuse
 glib
+meson make
+openssh
