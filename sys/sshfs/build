@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+mkdir build
+cd build
+
+meson ..
+ninja
+
+mkdir -pv "$1/usr/bin"
+install ./sshfs "$1/usr/bin"
