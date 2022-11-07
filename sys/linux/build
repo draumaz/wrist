@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+BASE=`head -2 Makefile | tail -1 | sed 's/[VERSION| = ]//g'`
+SUB=`head -3 Makefile | tail -1 | sed 's/[PATCHLEVEL| = ]//g'`
+EXTRA=`head -5 Makefile | tail -1 | sed 's/[EXTRAVERSION| = ]//g'`
+FULL="linux-${BASE}.${SUB}${EXTRA}"
+
+mkdir -pv $1/usr/src/$FULL
+cp -rfv * $1/usr/src/$FULL
