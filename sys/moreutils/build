@@ -4,4 +4,3 @@ patch Makefile < nodocs.patch
 
 make
 make install
-
