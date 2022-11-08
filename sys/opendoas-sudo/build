@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+mkdir -pv $1/usr/bin
+install sudo $1/usr/bin
